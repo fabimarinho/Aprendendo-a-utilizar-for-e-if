@@ -6,4 +6,5 @@ for venda in vendas:
     if venda >= meta:
         funcionarios_meta_alcancada += 1
         
-print(funcionarios_meta_alcancada)
+qtde_funcionarios = len(vendas)
+print("O percentual de pessoas que bateram a meta foi de {:.1%}".format(funcionarios_meta_alcancada / qtde_funcionarios))
